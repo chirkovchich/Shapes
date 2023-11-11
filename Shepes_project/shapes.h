@@ -1,15 +1,10 @@
 #pragma once
 
 #include <cmath>
-#include <memory>
-#include <string>
-#include <vector>
 #include <stdexcept>
 #include <iostream>
-
-
 //======
-//2.Populate a container (e.g. vector or list) of objects of these types created in random manner with  random parameters
+//1.Support a few types of 3D geometric curves – circles, ellipses and 3D helixes
 
 // Exception , Curves must be physically correct (e.g. radii must be positive).
 class ParameterException : public std::runtime_error {
